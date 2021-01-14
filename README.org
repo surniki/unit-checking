@@ -1,0 +1,19 @@
+
+* Unit Checking using C++ Templates
+
+Here is a dump of some work done in Spring 2019 for exploring how unit
+checking in type systems could lead to less errors when implementing
+physical simulations. It is fairly straightforward to implement a
+naive solution to this problem using C++ templates and following the
+lead of Walter Brown's /SIUNITS/ library and the relevant section in the
+textbook /Scientific and Engineering C++/ by Barton and
+Nackman. Some additional operations are introduced, such as a way of
+constructing wrappers around previously written numeric functions such
+that the types accepted and returned are quantities with physical
+units.
+
+There are also slides that were used in a presentation at the Spring
+2019 Research Symposium at Illinois State University as well an a
+report that was written in order to describe the implementation of
+unit checking in the C++ type system and its usage in a simple
+physical simulation.
